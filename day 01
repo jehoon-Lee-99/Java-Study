@@ -1,0 +1,41 @@
+자바 실행은
+코드 작성 - 코드 컴파일 - JVM으로 실행
+*컴파일이란? 작성한 코드를 실행 가능한 파일로 변경해주는 것
+
+
+
+코드 작성 연습 코드 
+public class HelloWorld{
+    public static void main(String args[]){
+        System.out.println("Hello World");
+    }
+}
+
+코드
+cd c:\tmp ~ 경로지정
+javac 파일명으로 컴파일
+java로 실행
+
+
+
+
+● 이클립스에서 실행 ●
+
+사용자 홈디렉토리 아래에 workspace 폴더를 지정
+first 프로젝트 생성
+소스 작성
+
+src폴더에서 HelloWorld.java파일 생성
+앞에서 만들었던 파일과 똑같은 파일을 HelloWorld.java파일로 작성
+워크스페이스 경로를 파일탐색기로 열어보면 src폴더에 HelloWorld.java파일 확인 가능
+컴파일
+
+bin폴더를 열어보면 HelloWorld.class파일 생성되어있음 (이클립스는 소스파일에 문제가 없다면 자동으로 컴파일하여 bin폴더에 클래스를 만듬.)
+실행
+
+클래스를 선택한 후 우측버튼을 클릭하고 자바 어플리케이션을 실행하는 메뉴를 선택
+
+
+● 자바에서 주석처리는 // 혹은 /* */를 활용함 (단축키 ctrl+/) ●
+
+
