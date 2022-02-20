@@ -130,7 +130,7 @@ public class MyClass{
 
             my1.method2(10);
 
-            int x = my1.method3();
+            int x = my1.method3();  //MyClass의 method3이 돌려주는 리턴값을 변수에 저장
 
             System.out.println("method3 이 리턴한 " + x + " 입니다.");
 
